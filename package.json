@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,7 +16,8 @@
     "@types/react-fontawesome": "^1.6.6",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/node": "latest",
